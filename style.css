@@ -163,6 +163,7 @@ article{
     border-radius: 12px;
 }
 .news-img img{
+    transform:scale(1.06);
     transition: all .9s;
 }
 .news:hover .news-img img{
@@ -232,6 +233,7 @@ footer{
 .footer-text p{
     font-weight:600;
     margin-top:15px;
+    margin-bottom:30px;
 }
 
 /* =====================
@@ -291,6 +293,7 @@ footer{
 @media only screen and (max-width:513px) {
     .football {
         top: 65%;
+        width:40px;
     }
     @keyframes myAnimation {
         from{
@@ -299,5 +302,24 @@ footer{
         to{
             transform:translate(-30px,-20px)
         }
+    }
+}
+@media only screen and (max-width:465px) {
+    .football {
+        top: 67%;
+        width: 40px;
+    }
+}
+@media only screen and (max-width:380px) {
+   header{
+       overflow: hidden;
+   }
+   .football{
+    top: 62%;
+    width: 30px;
+   }
+   .header-content h1 {
+    font-size: 34px;
+    line-height: 1.3em;
     }
 }
