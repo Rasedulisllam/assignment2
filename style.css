@@ -67,4 +67,23 @@ article{
 }
 .players{
     padding:15px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap:30px;
+    grid-row-gap:27px;
+}
+.player{
+    padding: 14px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #bfbebe;
+    transition:all .4s;
+}
+.player:hover{
+    box-shadow: 1px 1px 10px #777575;
+}
+.player h2{
+    margin:5px 0;
+}
+.player p{
+    color:#868585;
 }
