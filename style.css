@@ -62,8 +62,8 @@ header{
 
 article{
     display: flex;
-    justify-content:center;
-    margin-top:55px;
+    justify-content: center;
+    margin: 55px 0;
 }
 .players{
     padding:15px;
@@ -86,4 +86,40 @@ article{
 }
 .player p{
     color:#868585;
+}
+/* footer section style */
+footer{
+    display: flex;
+    padding:20px 0;
+    justify-content:center;
+}
+.footer-text{
+    text-align: center;
+    width:480px;
+}
+.footer-text img{
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social ul{
+    display:flex;
+}
+.social ul li{
+    list-style:none;
+}
+.social ul li a{
+    color: rgb(104, 103, 103);
+    padding: 8px;
+    transition: all .4s;
+    font-size: 20px;
+}
+.social ul li a:hover{
+    color:#e02c6d;
+}
+.footer-text p{
+    font-weight:600;
+    margin-top:15px;
 }
