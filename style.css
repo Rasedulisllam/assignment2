@@ -1,0 +1,70 @@
+/* base style */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width:1080px;
+}
+
+/* header section */
+header{
+    background-color: #2d25a0;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.header-main{
+    display: flex;
+    padding:100px 0;
+}
+.header-content{
+    flex-basis:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-content h1{
+    font-size:64px;
+    line-height: 80px;
+}
+.link-button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e02c6d;
+    border:1px solid transparent;
+    padding: 10px 16px;
+    margin-top: 18px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius:25px;
+    transition:all .4s ease;
+}
+.link-button:hover{
+    color: #e02c6d;
+    background-color:transparent;
+    border:1px solid #e02c6d;
+}
+.header-image{
+    flex-basis:50%;
+}
+
+/* article section style */
+
+article{
+    display: flex;
+    justify-content:center;
+    margin-top:55px;
+}
+.players{
+    padding:15px;
+}
