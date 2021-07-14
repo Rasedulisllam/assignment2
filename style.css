@@ -12,30 +12,6 @@ img{
 .container{
     width:1080px;
 }
-
-/* header section */
-header{
-    background-color: #2d25a0;
-    color:#fff;
-    display:flex;
-    justify-content: center;
-   
-}
-
-.header-main{
-    display: flex;
-    padding:100px 0;
-}
-.header-content{
-    flex-basis:50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.header-content h1{
-    font-size:64px;
-    line-height: 80px;
-}
 .link-button{
     text-decoration: none;
     color: #fff;
@@ -54,8 +30,50 @@ header{
     background-color:transparent;
     border:1px solid #e02c6d;
 }
+/* header section */
+header{
+    background-color: #2d25a0;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.header-main{
+    display: flex;
+    padding:100px 0;
+    position:relative;
+}
+.header-content{
+    flex-basis:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-content h1{
+    font-size:64px;
+    line-height: 80px;
+}
+
 .header-image{
     flex-basis:50%;
+}
+.football{
+    position: absolute;
+    top: 230px;
+    left: 52%;
+    width: 57px;
+}
+.header-main:hover .football{
+    animation: myAnimation 2s ease-out .5s infinite;
+}
+@keyframes myAnimation {
+    from{
+        transform:translate(0,0)
+    }
+    to{
+        transform:translate(-130px,-40px)
+    }
 }
 
 /* article section style */
